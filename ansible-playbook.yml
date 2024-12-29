@@ -11,4 +11,4 @@
     - name: docker image
       command: docker pull luvisjostonj/insurance:3
     - name: docker con
-      command: docker run -d -p 7878:8081 luvisjostonj/insurance:3
+      command: docker run -d -p 4567:8081 luvisjostonj/insurance:3
