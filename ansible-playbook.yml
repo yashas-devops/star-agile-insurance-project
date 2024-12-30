@@ -9,6 +9,6 @@
     - name: start docker service
       service: name=docker state=started
     - name: docker image
-      command: docker pull yashasmv19/insurance:11
+      command: docker pull yashasmv19/insurance:13
     - name: docker con
-      command: docker run -d -p 1818:8081 yashasmv19/insurance:11
+      command: docker run -d -p 1818:8081 yashasmv19/insurance:13
